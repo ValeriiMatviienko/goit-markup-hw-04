@@ -424,6 +424,7 @@ body {
 }
 
 .slogan {
+  margin-bottom: 20px;
   display: block;
   margin-top: 12px;
   font-weight: 700;
@@ -434,18 +435,23 @@ body {
   color: var(--secondary-text-color);
 }
 
-.social-list .social-list-item {
+.foot-slog .social-list {
   display: flex;
-  justify-content: center;
+  align-items: center;
 }
 
 .social-list .social-list-item:not(:last-child) {
   margin-right: 10px;
 }
 
-.slogan .social-list-link:hover,
-.slogan .social-list-link:focus {
-  color: var(--accent-color);
+.social-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 /* Portfolio */
