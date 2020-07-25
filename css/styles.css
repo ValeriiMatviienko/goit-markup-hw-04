@@ -335,12 +335,28 @@ body {
 }
 
 .list-img .list-list-link:not(:last-child) {
-  margin-right: 34px;
+  margin-right: 10px;
 }
 
-.team .team-social-link:hover,
-.team .team-social-link:focus {
-  color: var(--accent-color);
+.list-list-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-team {
+  fill: #afb1b8;
+}
+
+.list-list-link:hover {
+  background-color: var(--accent-color);
+}
+
+.list-list-link:hover .icon-team {
+  fill: var(--secondary-text-color);
 }
 
 /* Clients */
