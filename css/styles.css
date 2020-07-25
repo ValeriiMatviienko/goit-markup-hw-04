@@ -125,17 +125,30 @@ body {
 }
 
 .contact-list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: var(--main-text-color);
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
-.header-icon {
-  margin-top: 33px;
+.envelope-ic {
+  width: 16px;
+  height: 11px;
   margin-right: 10px;
-  fill: #757575;
+  fill: var(--main-text-color);
 }
 
+.smartphone-ic {
+  width: 10px;
+  height: 15px;
+  margin-right: 10px;
+  fill: var(--main-text-color);
+}
+
+.contact-list-link:hover .head-ic {
+  fill: var(--accent-color);
 }
 
 /*  HERO  */
