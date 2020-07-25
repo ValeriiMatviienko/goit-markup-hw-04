@@ -126,6 +126,16 @@ body {
 
 .contact-list-link {
   color: var(--main-text-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.header-icon {
+  margin-top: 33px;
+  margin-right: 10px;
+  fill: #757575;
+}
+
 }
 
 /*  HERO  */
