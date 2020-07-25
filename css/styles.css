@@ -381,6 +381,18 @@ body {
   cursor: pointer;
 }
 
+.icon-comp {
+  fill: #afb1b8;
+}
+
+.clients-list-item:hover .icon-comp {
+  fill: var(--accent-color);
+}
+
+.clients-link:hover {
+  border-color: var(--accent-color);
+}
+
 .clients-list .clients-list-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -394,11 +406,6 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-title-color);
-}
-
-.clients .clients-link:hover,
-.clients .clients-link:focus {
-  color: var(--accent-color);
 }
 
 /* Footer */
