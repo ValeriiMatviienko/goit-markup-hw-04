@@ -455,7 +455,7 @@ body {
 }
 
 .icon-foot {
-  color: var(--secondary-text-color);
+  fill: var(--secondary-text-color);
 }
 
 .social-list-item:hover {
