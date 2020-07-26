@@ -147,7 +147,8 @@ body {
   fill: var(--main-text-color);
 }
 
-.contact-list-link:hover .head-ic {
+.contact-list-link:hover .head-ic,
+.contact-list-link:focus .head-ic {
   fill: var(--accent-color);
 }
 
@@ -393,6 +394,13 @@ body {
   fill: var(--secondary-text-color);
 }
 
+.list-list-link:focus-within {
+  background-color: var(--accent-color);
+}
+.list-list-link:focus-within .icon-team {
+  fill: var(--secondary-text-color);
+}
+
 /* Clients */
 
 .clients {
@@ -420,6 +428,10 @@ body {
 }
 
 .clients-list-item:hover .icon-comp {
+  fill: var(--accent-color);
+}
+
+.clients-link:focus .icon-comp {
   fill: var(--accent-color);
 }
 
@@ -517,6 +529,9 @@ body {
 }
 
 .social-list-item:hover {
+  background-color: var(--accent-color);
+}
+.social-list-item:focus-within {
   background-color: var(--accent-color);
 }
 
@@ -633,10 +648,12 @@ body {
   background: #ffffff;
 }
 
-.examples-list-items:hover,
-.examples-list-items:focus {
-  background: var(--background-main-color);
-  border: 1px solid #eeeeee;
+.examples-list-items:hover {
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
+.examples-list .examples-list-items:focus-within {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
 }
