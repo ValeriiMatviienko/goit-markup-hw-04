@@ -520,6 +520,10 @@ body {
 }
 
 .social-list-item {
+  border-radius: 50%;
+}
+
+.social-list-link {
   display: flex;
   width: 44px;
   height: 44px;
@@ -527,7 +531,6 @@ body {
   align-items: center;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.1);
-  margin-right: 464px;
 }
 
 .icon-foot {
@@ -651,7 +654,6 @@ body {
   margin-right: 30px;
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
-  background: #ffffff;
 }
 
 .examples-list-items:hover {
@@ -659,9 +661,10 @@ body {
     0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
-.examples-list .examples-list-items:focus-within {
+.examples-list-items:focus-within {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
+  border: none;
 }
 
 .examples-list-items:nth-child(3n) {
@@ -704,9 +707,4 @@ body {
   line-height: 1.56;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
-}
-
-.examples-list-link:hover,
-.examples-list-link:focus {
-  color: rgba(33, 150, 243, 0.9);
 }
