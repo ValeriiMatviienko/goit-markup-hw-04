@@ -438,6 +438,9 @@ body {
 .clients-link:hover {
   border-color: var(--accent-color);
 }
+.clients-link:focus {
+  outline-color: var(--accent-color);
+}
 
 .clients-list .clients-list-item:not(:last-child) {
   margin-right: 30px;
